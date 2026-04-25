@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marché - Liste des produits</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+
+    <section class="products-panel">
+      <h1>Produits</h1>
+      <div id="product-grid" class="grid"></div>
+    </section>
+
+    <aside class="cart-panel">
+      <h2>Panier</h2>
+      <div id="cart-list">
+        <p class="cart-empty">Aucun produit sélectionné</p>
+      </div>
+      <hr class="divider">
+      <div id="calc-section" class="calc-section hidden">
+        <div class="calc-row">
+          <span>Articles</span>
+          <span id="calc-count">0</span>
+        </div>
+        <div class="calc-row">
+          <span>Sous-total</span>
+          <span id="calc-sub">0 FCFA</span>
+        </div>
+        <div class="calc-total">
+          <span>Total</span>
+          <span id="calc-total">0 FCFA</span>
+        </div>
+      </div>
+      <button id="btn-confirm" class="btn-confirm" disabled>Confirmer la commande</button>
+      <button id="btn-reset" class="btn-reset">Nouvelle commande</button>
+    </aside>
+
+  </main>
+
+  <!-- Modal confirmation -->
+  <div id="modal" class="modal-wrap hidden">
+    <div class="modal-box">
+      <div class="modal-icon">✅</div>
+      <h2 class="modal-title">Commande confirmée</h2>
+      <p class="modal-sub">Merci pour votre achat !</p>
+      <div class="modal-total" id="modal-total">0 FCFA</div>
+      <button id="btn-close-modal" class="btn-confirm">Fermer</button>
+    </div>
+  </div>
+
+  <script src="SCRIPT.JS"></script>
+</body>
+</html>

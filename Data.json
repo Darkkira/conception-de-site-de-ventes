@@ -1,0 +1,13 @@
+[
+{ "id": 1, "name": "Gateau a la fraise", "price": 1000, "image": "img/1.jpeg" },
+{ "id": 2, "name": "Ananas", "price": 500, "image": "img/2.jpg" },
+{ "id": 3, "name": "Pastèque", "price": 300, "image": "img/3.jpg" },
+{ "id": 4, "name": "Produit 4", "price": 200, "image": "img/4.jpg" },
+{ "id": 5, "name": "Produit 5", "price": 150, "image": "img/5.jpg" },
+{ "id": 6, "name": "Produit 6", "price": 250, "image": "img/6.jpg" },
+{ "id": 7, "name": "Produit 7", "price": 350, "image": "img/7.jpg" },
+{ "id": 8, "name": "Produit 8", "price": 400, "image": "img/8.jpg" },
+{ "id": 9, "name": "Produit 9", "price": 450, "image": "img/9.jpg" },
+{ "id": 10, "name": "Produit 10", "price": 500, "image": "img/10.jpg" },
+{ "id": 11, "name": "Produit 11", "price": 600, "image": "img/11.jpg" }
+]
